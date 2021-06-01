@@ -5,13 +5,12 @@ import java.util.Scanner;
 public class ex06 {
 
     public static void main (String[] args) {
-        Scanner input1 = new Scanner(System.in),
-                input2 = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("What is your current age? ");
-        String s1 = input1.next();
+        String s1 = input.next();
         System.out.print("At what age would you like to retire? ");
-        String s2 = input2.next();
+        String s2 = input.next();
 
         int age = Integer.parseInt(s1);
         int retire = Integer.parseInt(s2);
